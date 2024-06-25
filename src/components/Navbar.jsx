@@ -13,11 +13,11 @@ const Navbar = () => (
             Examples
           </Button>
         </PopoverTrigger>
-        <PopoverContent bg="white">
+        <PopoverContent>
           <PopoverArrow />
           <PopoverCloseButton />
           <PopoverHeader>Accessibility Examples</PopoverHeader>
-          <PopoverBody color="black">
+          <PopoverBody>
             <Flex direction="column">
               <Link as={NavLink} to="/accessibility-error-1" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
                 Missing Alt Text
