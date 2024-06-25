@@ -11,24 +11,27 @@ import AccessibilityError8 from "./pages/AccessibilityError8.jsx";
 import AccessibilityError9 from "./pages/AccessibilityError9.jsx";
 import AccessibilityError10 from "./pages/AccessibilityError10.jsx";
 import Navbar from "./components/Navbar.jsx";
+import { Box } from "@chakra-ui/react"; // Import Box component
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route exact path="/" element={<Index />} />
-        <Route exact path="/accessibility-error-1" element={<AccessibilityError1 />} />
-        <Route exact path="/accessibility-error-2" element={<AccessibilityError2 />} />
-        <Route exact path="/accessibility-error-3" element={<AccessibilityError3 />} />
-        <Route exact path="/accessibility-error-4" element={<AccessibilityError4 />} />
-        <Route exact path="/accessibility-error-5" element={<AccessibilityError5 />} />
-        <Route exact path="/accessibility-error-6" element={<AccessibilityError6 />} />
-        <Route exact path="/accessibility-error-7" element={<AccessibilityError7 />} />
-        <Route exact path="/accessibility-error-8" element={<AccessibilityError8 />} />
-        <Route exact path="/accessibility-error-9" element={<AccessibilityError9 />} />
-        <Route exact path="/accessibility-error-10" element={<AccessibilityError10 />} />
-      </Routes>
+      <Box bg="background"> {/* Wrap with Box and set background color */}
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Index />} />
+          <Route exact path="/accessibility-error-1" element={<AccessibilityError1 />} />
+          <Route exact path="/accessibility-error-2" element={<AccessibilityError2 />} />
+          <Route exact path="/accessibility-error-3" element={<AccessibilityError3 />} />
+          <Route exact path="/accessibility-error-4" element={<AccessibilityError4 />} />
+          <Route exact path="/accessibility-error-5" element={<AccessibilityError5 />} />
+          <Route exact path="/accessibility-error-6" element={<AccessibilityError6 />} />
+          <Route exact path="/accessibility-error-7" element={<AccessibilityError7 />} />
+          <Route exact path="/accessibility-error-8" element={<AccessibilityError8 />} />
+          <Route exact path="/accessibility-error-9" element={<AccessibilityError9 />} />
+          <Route exact path="/accessibility-error-10" element={<AccessibilityError10 />} />
+        </Routes>
+      </Box>
     </Router>
   );
 }
