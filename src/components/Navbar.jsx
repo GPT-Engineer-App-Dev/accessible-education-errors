@@ -7,20 +7,20 @@ const Navbar = () => (
       <Link as={NavLink} to="/" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
         Home
       </Link>
-      <Link as={NavLink} to="/accessibility-error-1" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
-        Missing Alt Text
+      <Link as={NavLink} to="/accessibility-error-6" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
+        Missing ARIA Landmarks
       </Link>
-      <Link as={NavLink} to="/accessibility-error-2" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
-        Poor Color Contrast
+      <Link as={NavLink} to="/accessibility-error-7" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
+        Inaccessible Interactive Elements
       </Link>
-      <Link as={NavLink} to="/accessibility-error-3" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
-        Missing Form Labels
+      <Link as={NavLink} to="/accessibility-error-8" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
+        Missing Keyboard Navigation
       </Link>
-      <Link as={NavLink} to="/accessibility-error-4" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
-        Non-Descriptive Links
+      <Link as={NavLink} to="/accessibility-error-9" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
+        Inaccessible Tables
       </Link>
-      <Link as={NavLink} to="/accessibility-error-5" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
-        Missing Document Language
+      <Link as={NavLink} to="/accessibility-error-10" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
+        Missing Captions for Videos
       </Link>
     </Flex>
   </Box>
