@@ -1,7 +1,6 @@
 // Update this page (the content is just a fallback if you fail and example)
 // Use chakra-ui
-import { Container, Text, VStack, Link, Button } from "@chakra-ui/react";
-import { NavLink } from "react-router-dom";
+import { Container, Text, VStack } from "@chakra-ui/react";
 
 // Example of using react-icons
 // import { FaRocket } from "react-icons/fa";
@@ -11,23 +10,8 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
-        <Text fontSize="2xl">Accessibility Examples</Text>
-        <Text>Explore different accessibility errors and learn how to fix them.</Text>
-        <Button as={NavLink} to="/accessibility-error-1" colorScheme="teal" variant="outline">
-          Missing Alt Text
-        </Button>
-        <Button as={NavLink} to="/accessibility-error-2" colorScheme="teal" variant="outline">
-          Poor Color Contrast
-        </Button>
-        <Button as={NavLink} to="/accessibility-error-3" colorScheme="teal" variant="outline">
-          Missing Form Labels
-        </Button>
-        <Button as={NavLink} to="/accessibility-error-4" colorScheme="teal" variant="outline">
-          Non-Descriptive Links
-        </Button>
-        <Button as={NavLink} to="/accessibility-error-5" colorScheme="teal" variant="outline">
-          Missing Document Language
-        </Button>
+        <Text fontSize="2xl">Your Blank Canvas</Text>
+        <Text>Chat with the agent to start making edits.</Text>
       </VStack>
     </Container>
   );
