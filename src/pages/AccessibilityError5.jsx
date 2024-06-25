@@ -10,6 +10,22 @@ const AccessibilityError5 = () => (
       <Text>
         The document language is not specified in the HTML tag, making it difficult for screen readers to interpret the content correctly.
       </Text>
+      <Heading as="h2" size="lg">Good Example</Heading>
+      <Text>
+        The HTML tag below specifies the document language, making it accessible to users who rely on screen readers.
+      </Text>
+      <Text as="pre">
+        {`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <p>Content goes here.</p>
+</body>
+</html>`}
+      </Text>
     </VStack>
   </Box>
 );
