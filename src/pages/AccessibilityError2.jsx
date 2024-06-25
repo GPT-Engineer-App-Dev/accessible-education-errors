@@ -10,13 +10,6 @@ const AccessibilityError2 = () => (
       <Text color="gray.500" bg="gray.200" p={2}>
         This text has poor color contrast and is difficult to read.
       </Text>
-      <Heading as="h2" size="lg">Good Example</Heading>
-      <Text>
-        The text below has good color contrast, making it easy to read.
-      </Text>
-      <Text color="black" bg="white" p={2}>
-        This text has good color contrast and is easy to read.
-      </Text>
     </VStack>
   </Box>
 );

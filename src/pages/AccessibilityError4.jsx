@@ -1,4 +1,4 @@
-import { Box, Heading, Text, VStack, Link } from "@chakra-ui/react";
+import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 
 const AccessibilityError4 = () => (
   <Box p={4}>
@@ -7,15 +7,10 @@ const AccessibilityError4 = () => (
       <Text>
         This page demonstrates an accessibility error where links are non-descriptive. Descriptive link text is important for screen readers to convey the purpose of the link to users who are visually impaired.
       </Text>
-      <Link href="#">Click here</Link>
+      <a href="#">Click here</a>
       <Text>
         The link above is non-descriptive and does not convey its purpose to users who rely on screen readers.
       </Text>
-      <Heading as="h2" size="lg">Good Example</Heading>
-      <Text>
-        The link below is descriptive, making it accessible to users who rely on screen readers.
-      </Text>
-      <Link href="https://example.com">Visit our example page</Link>
     </VStack>
   </Box>
 );
