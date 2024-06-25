@@ -28,21 +28,6 @@ const Index = () => {
         <Button as={NavLink} to="/accessibility-error-5" colorScheme="teal" variant="outline">
           Missing Document Language
         </Button>
-        <Button as={NavLink} to="/accessibility-error-6" colorScheme="teal" variant="outline">
-          Missing ARIA Landmarks
-        </Button>
-        <Button as={NavLink} to="/accessibility-error-7" colorScheme="teal" variant="outline">
-          Inaccessible Interactive Elements
-        </Button>
-        <Button as={NavLink} to="/accessibility-error-8" colorScheme="teal" variant="outline">
-          Missing Keyboard Navigation
-        </Button>
-        <Button as={NavLink} to="/accessibility-error-9" colorScheme="teal" variant="outline">
-          Inaccessible Tables
-        </Button>
-        <Button as={NavLink} to="/accessibility-error-10" colorScheme="teal" variant="outline">
-          Missing Captions for Videos
-        </Button>
       </VStack>
     </Container>
   );
