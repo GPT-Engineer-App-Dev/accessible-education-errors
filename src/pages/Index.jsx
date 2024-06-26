@@ -11,8 +11,8 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg="background.100">
       <VStack spacing={4}>
-        <Text fontSize="2xl" color="accent.800">Accessibility Examples</Text>
-        <Text color="accent.700">Explore different accessibility errors and learn how to fix them.</Text>
+        <Text fontSize="2xl" color="brand.800">Accessibility Examples</Text>
+        <Text color="brand.700">Explore different accessibility errors and learn how to fix them.</Text>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={4}>
           <Button as={NavLink} to="/accessibility-error-1" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
             Missing Alt Text
