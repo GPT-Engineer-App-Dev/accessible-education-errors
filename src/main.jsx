@@ -6,26 +6,26 @@ import { SupabaseProvider } from "./integrations/supabase/index.js";
 
 const colors = {
   brand: {
-    900: "#0D1B2A", // Darker shade for backgrounds
-    800: "#1B263B", // Dark shade for headers
-    700: "#415A77", // Medium shade for text
-    600: "#778DA9", // Lighter shade for secondary text
-    500: "#E0E1DD", // Light shade for borders
-    400: "#F4F4F9", // Lighter shade for backgrounds
-    300: "#F8F9FA", // Lightest shade for backgrounds
-    200: "#FDFDFD", // Lightest shade for backgrounds
-    100: "#FFFFFF", // Lightest shade for backgrounds
+    900: "#7B5804", // Darker shade for backgrounds
+    800: "#9C7406", // Dark shade for headers
+    700: "#B98F08", // Medium shade for text
+    600: "#D6AA0A", // Lighter shade for secondary text
+    500: "#F3C50C", // Light shade for borders
+    400: "#F7D94E", // Lighter shade for backgrounds
+    300: "#FBEF90", // Lightest shade for backgrounds
+    200: "#FDF9C2", // Lightest shade for backgrounds
+    100: "#FEFDE4", // Lightest shade for backgrounds
   },
   accent: {
-    900: "#1A365D", // Darker accent color (blue)
-    800: "#1E429F", // Dark accent color (blue)
-    700: "#2A69AC", // Medium accent color (blue)
-    600: "#3182CE", // Lighter accent color (blue)
-    500: "#4299E1", // Light accent color (blue)
-    400: "#63B3ED", // Lighter accent color (blue)
-    300: "#90CDF4", // Lightest accent color (blue)
-    200: "#BEE3F8", // Lightest accent color (blue)
-    100: "#EBF8FF", // Lightest accent color (blue)
+    900: "#7B5804", // Darker accent color (yellow)
+    800: "#9C7406", // Dark accent color (yellow)
+    700: "#B98F08", // Medium accent color (yellow)
+    600: "#D6AA0A", // Lighter accent color (yellow)
+    500: "#F3C50C", // Light accent color (yellow)
+    400: "#F7D94E", // Lighter accent color (yellow)
+    300: "#FBEF90", // Lightest accent color (yellow)
+    200: "#FDF9C2", // Lightest accent color (yellow)
+    100: "#FEFDE4", // Lightest accent color (yellow)
   },
 };
 
