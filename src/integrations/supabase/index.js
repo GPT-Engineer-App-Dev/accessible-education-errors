@@ -19,57 +19,62 @@ const fromSupabase = async (query) => {
 
 /* supabase integration types
 
-### activity
+### event
 
 | name       | type        | format | required |
 |------------|-------------|--------|----------|
-| id         | uuid        | string | true     |
+| id         | int8        | number | true     |
+| name       | text        | string | true     |
 | created_at | timestamptz | string | true     |
-| type       | text        | string | true     |
-| started_at | timestamptz | string | true     |
-| ended_at   | timestamptz | string | true     |
-| distance   | int8        | number | true     |
+| date       | date        | string | true     |
 
-### users
+### user
 
 | name       | type        | format | required |
 |------------|-------------|--------|----------|
-| id         | uuid        | string | true     |
+| id         | int8        | number | true     |
+| username   | text        | string | true     |
+| email      | text        | string | true     |
 | created_at | timestamptz | string | true     |
 
 */
 
-export const useActivity = () => useQuery({
-    queryKey: ['activity'],
-    queryFn: () => fromSupabase(supabase.from('activity').select('*')),
+export const useEvents = () => useQuery({
+    queryKey: ['events'],
+    queryFn: () => fromSupabase(supabase.from('events').select('*')),
 });
 
-export const useAddActivity = () => {
+export const useEvent = (id) => useQuery({
+    queryKey: ['event', id],
+    queryFn: () => fromSupabase(supabase.from('events').select('*').eq('id', id).single()),
+});
+
+export const useAddEvent = () => {
     const queryClient = useQueryClient();
     return useMutation({
-        mutationFn: (newActivity) => fromSupabase(supabase.from('activity').insert([newActivity])),
+        mutationFn: (newEvent) => fromSupabase(supabase.from('events').insert([newEvent])),
         onSuccess: () => {
-            queryClient.invalidateQueries('activity');
+            queryClient.invalidateQueries('events');
         },
     });
 };
 
-export const useUpdateActivity = () => {
+export const useUpdateEvent = () => {
     const queryClient = useQueryClient();
     return useMutation({
-        mutationFn: (updatedActivity) => fromSupabase(supabase.from('activity').update(updatedActivity).eq('id', updatedActivity.id)),
+        mutationFn: (updatedEvent) => fromSupabase(supabase.from('events').update(updatedEvent).eq('id', updatedEvent.id)),
         onSuccess: () => {
-            queryClient.invalidateQueries('activity');
+            queryClient.invalidateQueries('events');
         },
     });
 };
 
-export const useDeleteActivity = () => {
+export const useDeleteEvent = () => {
     const queryClient = useQueryClient();
     return useMutation({
-        mutationFn: (id) => fromSupabase(supabase.from('activity').delete().eq('id', id)),
+        mutationFn: (id) => fromSupabase(supabase.from('events').delete().eq('id', id)),
         onSuccess: () => {
-            queryClient.invalidateQueries('activity');
+            queryClient.invalidateQueries('events');
         },
     });
 };
@@ -77,6 +82,11 @@ export const useDeleteActivity = () => {
 export const useUsers = () => useQuery({
     queryKey: ['users'],
     queryFn: () => fromSupabase(supabase.from('users').select('*')),
+});
+
+export const useUser = (id) => useQuery({
+    queryKey: ['user', id],
+    queryFn: () => fromSupabase(supabase.from('users').select('*').eq('id', id).single()),
 });
 
 export const useAddUser = () => {
