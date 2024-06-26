@@ -5,26 +5,26 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
 const colors = {
   brand: {
-    900: "#1a202c", // Darker shade for backgrounds
-    800: "#2d3748", // Dark shade for headers
-    700: "#4a5568", // Medium shade for text
-    600: "#718096", // Lighter shade for secondary text
-    500: "#a0aec0", // Light shade for borders
-    400: "#cbd5e0", // Lighter shade for backgrounds
-    300: "#e2e8f0", // Lightest shade for backgrounds
-    200: "#edf2f7", // Lightest shade for backgrounds
-    100: "#f7fafc", // Lightest shade for backgrounds
+    900: "#0D1B2A", // Darker shade for backgrounds
+    800: "#1B263B", // Dark shade for headers
+    700: "#415A77", // Medium shade for text
+    600: "#778DA9", // Lighter shade for secondary text
+    500: "#E0E1DD", // Light shade for borders
+    400: "#F4F4F9", // Lighter shade for backgrounds
+    300: "#F8F9FA", // Lightest shade for backgrounds
+    200: "#FDFDFD", // Lightest shade for backgrounds
+    100: "#FFFFFF", // Lightest shade for backgrounds
   },
   accent: {
-    900: "#7b341e", // Darker accent color
-    800: "#9b2c2c", // Dark accent color
-    700: "#c53030", // Medium accent color
-    600: "#e53e3e", // Lighter accent color
-    500: "#f56565", // Light accent color
-    400: "#fc8181", // Lighter accent color
-    300: "#feb2b2", // Lightest accent color
-    200: "#fed7d7", // Lightest accent color
-    100: "#fff5f5", // Lightest accent color
+    900: "#7B341E", // Darker accent color
+    800: "#9B2C2C", // Dark accent color
+    700: "#C53030", // Medium accent color
+    600: "#E53E3E", // Lighter accent color
+    500: "#F56565", // Light accent color
+    400: "#FC8181", // Lighter accent color
+    300: "#FEB2B2", // Lightest accent color
+    200: "#FED7D7", // Lightest accent color
+    100: "#FFF5F5", // Lightest accent color
   },
 };
 
