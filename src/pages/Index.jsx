@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 
 const Index = () => {
   return (
-    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg="brand.100">
+    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg="background.100">
       <VStack spacing={4}>
         <Text fontSize="2xl" color="accent.800">Accessibility Examples</Text>
         <Text color="accent.700">Explore different accessibility errors and learn how to fix them.</Text>
