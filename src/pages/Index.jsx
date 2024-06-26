@@ -11,38 +11,38 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg="background.100">
       <VStack spacing={4}>
-        <Text fontSize="2xl" color="brand.800">Tillgänglighetsexempel</Text>
-        <Text color="brand.700">Utforska olika tillgänglighetsfel och lär dig hur du åtgärdar dem.</Text>
+        <Text fontSize="2xl" color="brand.800">Barrierefreiheitsbeispiele</Text>
+        <Text color="brand.700">Erkunden Sie verschiedene Barrierefreiheitsfehler und lernen Sie, wie Sie diese beheben können.</Text>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={4}>
           <Button as={NavLink} to="/accessibility-error-1" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
-            Saknar Alt-text
+            Fehlender Alt-Text
           </Button>
           <Button as={NavLink} to="/accessibility-error-2" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
-            Dålig färgkontrast
+            Schlechter Farbkontrast
           </Button>
           <Button as={NavLink} to="/accessibility-error-3" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
-            Saknar formuläretiketter
+            Fehlende Formularbeschriftungen
           </Button>
           <Button as={NavLink} to="/accessibility-error-4" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
-            Icke-beskrivande länkar
+            Nicht beschreibende Links
           </Button>
           <Button as={NavLink} to="/accessibility-error-5" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
-            Saknar dokumentspråk
+            Fehlende Dokumentensprache
           </Button>
           <Button as={NavLink} to="/accessibility-error-6" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
-            Saknar ARIA-landmärken
+            Fehlende ARIA-Landmarken
           </Button>
           <Button as={NavLink} to="/accessibility-error-7" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
-            Otillgängliga interaktiva element
+            Unzugängliche interaktive Elemente
           </Button>
           <Button as={NavLink} to="/accessibility-error-8" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
-            Saknar tangentbordsnavigering
+            Fehlende Tastaturnavigation
           </Button>
           <Button as={NavLink} to="/accessibility-error-9" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
-            Otillgängliga tabeller
+            Unzugängliche Tabellen
           </Button>
           <Button as={NavLink} to="/accessibility-error-10" colorScheme="accent" variant="outline" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px">
-            Saknar undertexter för videor
+            Fehlende Untertitel für Videos
           </Button>
         </SimpleGrid>
       </VStack>

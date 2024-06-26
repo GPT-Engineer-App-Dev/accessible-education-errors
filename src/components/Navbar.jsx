@@ -5,49 +5,49 @@ const Navbar = () => (
   <Box bg="brand.800" color="white" p={4}>
     <Flex justify="space-around">
       <Link as={NavLink} to="/" _hover={{ textDecoration: "none" }} _activeLink={{ color: "white", fontWeight: "bold" }} fontSize="lg" fontWeight="bold">
-        Home
+        Startseite
       </Link>
       <Popover>
         <PopoverTrigger>
           <Button variant="link" color="white" _hover={{ textDecoration: "none" }} fontSize="lg" fontWeight="bold">
-            Examples
+            Beispiele
           </Button>
         </PopoverTrigger>
         <PopoverContent bg="white">
           <PopoverArrow />
           <PopoverCloseButton />
-          <PopoverHeader>Accessibility Examples</PopoverHeader>
+          <PopoverHeader>Barrierefreiheitsbeispiele</PopoverHeader>
           <PopoverBody color="black">
             <Flex direction="column">
               <Link as={NavLink} to="/accessibility-error-1" _hover={{ textDecoration: "none" }} _activeLink={{ color: "brand.900", fontWeight: "bold" }}>
-                Missing Alt Text
+                Fehlender Alt-Text
               </Link>
               <Link as={NavLink} to="/accessibility-error-2" _hover={{ textDecoration: "none" }} _activeLink={{ color: "brand.900", fontWeight: "bold" }}>
-                Poor Color Contrast
+                Schlechter Farbkontrast
               </Link>
               <Link as={NavLink} to="/accessibility-error-3" _hover={{ textDecoration: "none" }} _activeLink={{ color: "brand.900", fontWeight: "bold" }}>
-                Missing Form Labels
+                Fehlende Formularbeschriftungen
               </Link>
               <Link as={NavLink} to="/accessibility-error-4" _hover={{ textDecoration: "none" }} _activeLink={{ color: "brand.900", fontWeight: "bold" }}>
-                Non-Descriptive Links
+                Nicht beschreibende Links
               </Link>
               <Link as={NavLink} to="/accessibility-error-5" _hover={{ textDecoration: "none" }} _activeLink={{ color: "brand.900", fontWeight: "bold" }}>
-                Missing Document Language
+                Fehlende Dokumentensprache
               </Link>
               <Link as={NavLink} to="/accessibility-error-6" _hover={{ textDecoration: "none" }} _activeLink={{ color: "brand.900", fontWeight: "bold" }}>
-                Missing ARIA Landmarks
+                Fehlende ARIA-Landmarken
               </Link>
               <Link as={NavLink} to="/accessibility-error-7" _hover={{ textDecoration: "none" }} _activeLink={{ color: "brand.900", fontWeight: "bold" }}>
-                Inaccessible Interactive Elements
+                Unzugängliche interaktive Elemente
               </Link>
               <Link as={NavLink} to="/accessibility-error-8" _hover={{ textDecoration: "none" }} _activeLink={{ color: "brand.900", fontWeight: "bold" }}>
-                Missing Keyboard Navigation
+                Fehlende Tastaturnavigation
               </Link>
               <Link as={NavLink} to="/accessibility-error-9" _hover={{ textDecoration: "none" }} _activeLink={{ color: "brand.900", fontWeight: "bold" }}>
-                Inaccessible Tables
+                Unzugängliche Tabellen
               </Link>
               <Link as={NavLink} to="/accessibility-error-10" _hover={{ textDecoration: "none" }} _activeLink={{ color: "brand.900", fontWeight: "bold" }}>
-                Missing Captions for Videos
+                Fehlende Untertitel für Videos
               </Link>
             </Flex>
           </PopoverBody>
