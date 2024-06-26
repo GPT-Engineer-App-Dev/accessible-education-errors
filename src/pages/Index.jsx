@@ -14,34 +14,34 @@ const Index = () => {
         <Text fontSize="2xl" color="accent.800">Accessibility Examples</Text>
         <Text color="accent.700">Explore different accessibility errors and learn how to fix them.</Text>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={4}>
-          <Button as={NavLink} to="/accessibility-error-1" colorScheme="accent" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-1" colorScheme="accent" variant="outline" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '200px' }}>
             Missing Alt Text
           </Button>
-          <Button as={NavLink} to="/accessibility-error-2" colorScheme="accent" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-2" colorScheme="accent" variant="outline" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '200px' }}>
             Poor Color Contrast
           </Button>
-          <Button as={NavLink} to="/accessibility-error-3" colorScheme="accent" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-3" colorScheme="accent" variant="outline" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '200px' }}>
             Missing Form Labels
           </Button>
-          <Button as={NavLink} to="/accessibility-error-4" colorScheme="accent" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-4" colorScheme="accent" variant="outline" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '200px' }}>
             Non-Descriptive Links
           </Button>
-          <Button as={NavLink} to="/accessibility-error-5" colorScheme="accent" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-5" colorScheme="accent" variant="outline" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '200px' }}>
             Missing Document Language
           </Button>
-          <Button as={NavLink} to="/accessibility-error-6" colorScheme="accent" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-6" colorScheme="accent" variant="outline" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '200px' }}>
             Missing ARIA Landmarks
           </Button>
-          <Button as={NavLink} to="/accessibility-error-7" colorScheme="accent" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-7" colorScheme="accent" variant="outline" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '200px' }}>
             Inaccessible Interactive Elements
           </Button>
-          <Button as={NavLink} to="/accessibility-error-8" colorScheme="accent" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-8" colorScheme="accent" variant="outline" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '200px' }}>
             Missing Keyboard Navigation
           </Button>
-          <Button as={NavLink} to="/accessibility-error-9" colorScheme="accent" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-9" colorScheme="accent" variant="outline" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '200px' }}>
             Inaccessible Tables
           </Button>
-          <Button as={NavLink} to="/accessibility-error-10" colorScheme="accent" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-10" colorScheme="accent" variant="outline" style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '200px' }}>
             Missing Captions for Videos
           </Button>
         </SimpleGrid>
