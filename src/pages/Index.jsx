@@ -9,39 +9,39 @@ import { NavLink } from "react-router-dom";
 
 const Index = () => {
   return (
-    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg="brand.100">
       <VStack spacing={4}>
-        <Text fontSize="2xl">Accessibility Examples</Text>
-        <Text>Explore different accessibility errors and learn how to fix them.</Text>
+        <Text fontSize="2xl" color="brand.800">Accessibility Examples</Text>
+        <Text color="brand.700">Explore different accessibility errors and learn how to fix them.</Text>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={4}>
-          <Button as={NavLink} to="/accessibility-error-1" colorScheme="teal" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-1" colorScheme="accent" variant="outline">
             Missing Alt Text
           </Button>
-          <Button as={NavLink} to="/accessibility-error-2" colorScheme="teal" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-2" colorScheme="accent" variant="outline">
             Poor Color Contrast
           </Button>
-          <Button as={NavLink} to="/accessibility-error-3" colorScheme="teal" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-3" colorScheme="accent" variant="outline">
             Missing Form Labels
           </Button>
-          <Button as={NavLink} to="/accessibility-error-4" colorScheme="teal" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-4" colorScheme="accent" variant="outline">
             Non-Descriptive Links
           </Button>
-          <Button as={NavLink} to="/accessibility-error-5" colorScheme="teal" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-5" colorScheme="accent" variant="outline">
             Missing Document Language
           </Button>
-          <Button as={NavLink} to="/accessibility-error-6" colorScheme="teal" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-6" colorScheme="accent" variant="outline">
             Missing ARIA Landmarks
           </Button>
-          <Button as={NavLink} to="/accessibility-error-7" colorScheme="teal" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-7" colorScheme="accent" variant="outline">
             Inaccessible Interactive Elements
           </Button>
-          <Button as={NavLink} to="/accessibility-error-8" colorScheme="teal" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-8" colorScheme="accent" variant="outline">
             Missing Keyboard Navigation
           </Button>
-          <Button as={NavLink} to="/accessibility-error-9" colorScheme="teal" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-9" colorScheme="accent" variant="outline">
             Inaccessible Tables
           </Button>
-          <Button as={NavLink} to="/accessibility-error-10" colorScheme="teal" variant="outline">
+          <Button as={NavLink} to="/accessibility-error-10" colorScheme="accent" variant="outline">
             Missing Captions for Videos
           </Button>
         </SimpleGrid>
