@@ -22,6 +22,15 @@ const Navbar = () => (
       <Link as={NavLink} to="/accessibility-error-10" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
         Missing Captions for Videos
       </Link>
+      <Link as={NavLink} to="/accessibility-error-11" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
+        Missing Focus Indicators
+      </Link>
+      <Link as={NavLink} to="/accessibility-error-12" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
+        Placeholder as Label
+      </Link>
+      <Link as={NavLink} to="/accessibility-error-13" _hover={{ textDecoration: "none" }} _activeLink={{ color: "teal.300" }}>
+        Inaccessible Dropdowns
+      </Link>
     </Flex>
   </Box>
 );

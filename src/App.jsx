@@ -10,6 +10,9 @@ import AccessibilityError7 from "./pages/AccessibilityError7.jsx";
 import AccessibilityError8 from "./pages/AccessibilityError8.jsx";
 import AccessibilityError9 from "./pages/AccessibilityError9.jsx";
 import AccessibilityError10 from "./pages/AccessibilityError10.jsx";
+import AccessibilityError11 from "./pages/AccessibilityError11.jsx";
+import AccessibilityError12 from "./pages/AccessibilityError12.jsx";
+import AccessibilityError13 from "./pages/AccessibilityError13.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
@@ -28,6 +31,9 @@ function App() {
         <Route exact path="/accessibility-error-8" element={<AccessibilityError8 />} />
         <Route exact path="/accessibility-error-9" element={<AccessibilityError9 />} />
         <Route exact path="/accessibility-error-10" element={<AccessibilityError10 />} />
+        <Route exact path="/accessibility-error-11" element={<AccessibilityError11 />} />
+        <Route exact path="/accessibility-error-12" element={<AccessibilityError12 />} />
+        <Route exact path="/accessibility-error-13" element={<AccessibilityError13 />} />
       </Routes>
     </Router>
   );

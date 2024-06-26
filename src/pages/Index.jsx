@@ -43,6 +43,15 @@ const Index = () => {
         <Button as={NavLink} to="/accessibility-error-10" colorScheme="teal" variant="outline">
           Missing Captions for Videos
         </Button>
+        <Button as={NavLink} to="/accessibility-error-11" colorScheme="teal" variant="outline">
+          Missing Focus Indicators
+        </Button>
+        <Button as={NavLink} to="/accessibility-error-12" colorScheme="teal" variant="outline">
+          Placeholder as Label
+        </Button>
+        <Button as={NavLink} to="/accessibility-error-13" colorScheme="teal" variant="outline">
+          Inaccessible Dropdowns
+        </Button>
       </VStack>
     </Container>
   );
