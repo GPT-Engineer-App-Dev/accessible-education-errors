@@ -28,7 +28,7 @@ const colors = {
     100: "#FEFDE4", // Lightest accent color (yellow)
   },
   background: {
-    100: "#0000FF", // Blue background color
+    100: "#FF0000", // Red background color
   },
 };
 
