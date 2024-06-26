@@ -2,14 +2,14 @@ import { Box, Flex, Link, Popover, PopoverTrigger, PopoverContent, PopoverArrow,
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => (
-  <Box bg="brand.900" color="white" p={4}>
+  <Box bg="brand.500" color="brand.900" p={4}>
     <Flex justify="space-around">
       <Link as={NavLink} to="/" _hover={{ textDecoration: "none" }} _activeLink={{ color: "accent.600" }}>
         Home
       </Link>
       <Popover>
         <PopoverTrigger>
-          <Button variant="link" color="white" _hover={{ textDecoration: "none" }}>
+          <Button variant="link" color="brand.900" _hover={{ textDecoration: "none" }}>
             Examples
           </Button>
         </PopoverTrigger>
