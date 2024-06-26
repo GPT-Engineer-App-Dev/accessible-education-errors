@@ -7,14 +7,14 @@ const AccessibilityError2 = () => (
       <Text>
         This page demonstrates an accessibility error where text has poor color contrast with its background. Good color contrast is essential for readability, especially for users with visual impairments.
       </Text>
-      <Text color="gray.500" bg="gray.200" p={2}>
+      <Text color="green.500" bg="green.200" p={2}>
         This text has poor color contrast and is difficult to read.
       </Text>
       <Heading as="h2" size="lg">Good Example</Heading>
       <Text>
         The text below has good color contrast, making it easy to read.
       </Text>
-      <Text color="black" bg="white" p={2}>
+      <Text color="green.900" bg="green.100" p={2}>
         This text has good color contrast and is easy to read.
       </Text>
     </VStack>

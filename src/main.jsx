@@ -16,15 +16,15 @@ const colors = {
     100: "#FFFFFF", // Lightest shade for backgrounds
   },
   accent: {
-    900: "#7B341E", // Darker accent color
-    800: "#9B2C2C", // Dark accent color
-    700: "#C53030", // Medium accent color
-    600: "#E53E3E", // Lighter accent color
-    500: "#F56565", // Light accent color
-    400: "#FC8181", // Lighter accent color
-    300: "#FEB2B2", // Lightest accent color
-    200: "#FED7D7", // Lightest accent color
-    100: "#FFF5F5", // Lightest accent color
+    900: "#1C4532", // Darker accent color (green)
+    800: "#22543D", // Dark accent color (green)
+    700: "#276749", // Medium accent color (green)
+    600: "#2F855A", // Lighter accent color (green)
+    500: "#38A169", // Light accent color (green)
+    400: "#48BB78", // Lighter accent color (green)
+    300: "#68D391", // Lightest accent color (green)
+    200: "#9AE6B4", // Lightest accent color (green)
+    100: "#C6F6D5", // Lightest accent color (green)
   },
 };
 
