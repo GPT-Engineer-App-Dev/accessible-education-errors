@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { SupabaseProvider } from "./integrations/supabase/index.js";
+import backgroundTexture from "../public/images/background-texture.jpg";
 
 const colors = {
   brand: {
@@ -32,7 +33,20 @@ const colors = {
   },
 };
 
-const theme = extendTheme({ colors, fonts: { body: "Arial, sans-serif", heading: "Arial, sans-serif" } });
+const theme = extendTheme({
+  colors,
+  fonts: { body: "Arial, sans-serif", heading: "Arial, sans-serif" },
+  styles: {
+    global: {
+      body: {
+        bgImage: `url(${backgroundTexture})`,
+        bgSize: "cover",
+        bgRepeat: "no-repeat",
+        color: "brand.700",
+      },
+    },
+  },
+});
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
