@@ -10,6 +10,9 @@ import AccessibilityError7 from "./pages/AccessibilityError7.jsx";
 import AccessibilityError8 from "./pages/AccessibilityError8.jsx";
 import AccessibilityError9 from "./pages/AccessibilityError9.jsx";
 import AccessibilityError10 from "./pages/AccessibilityError10.jsx";
+import Credits from "./pages/Credits.jsx";
+import About from "./pages/About.jsx";
+import CoolAnimations from "./pages/CoolAnimations.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
@@ -28,6 +31,9 @@ function App() {
         <Route exact path="/accessibility-error-8" element={<AccessibilityError8 />} />
         <Route exact path="/accessibility-error-9" element={<AccessibilityError9 />} />
         <Route exact path="/accessibility-error-10" element={<AccessibilityError10 />} />
+        <Route exact path="/credits" element={<Credits />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/cool-animations" element={<CoolAnimations />} />
       </Routes>
     </Router>
   );

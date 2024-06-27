@@ -53,6 +53,15 @@ const Navbar = () => (
           </PopoverBody>
         </PopoverContent>
       </Popover>
+      <Link as={NavLink} to="/credits" _hover={{ textDecoration: "none" }} _activeLink={{ color: "white", fontWeight: "bold" }} fontSize="lg" fontWeight="bold">
+        Credits
+      </Link>
+      <Link as={NavLink} to="/about" _hover={{ textDecoration: "none" }} _activeLink={{ color: "white", fontWeight: "bold" }} fontSize="lg" fontWeight="bold">
+        About
+      </Link>
+      <Link as={NavLink} to="/cool-animations" _hover={{ textDecoration: "none" }} _activeLink={{ color: "white", fontWeight: "bold" }} fontSize="lg" fontWeight="bold">
+        Cool Animations
+      </Link>
     </Flex>
   </Box>
 );

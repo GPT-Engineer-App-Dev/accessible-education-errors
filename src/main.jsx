@@ -29,7 +29,7 @@ const colors = {
     100: "#FFEBCD", // BlanchedAlmond for links
   },
   background: {
-    100: "#F5F5DC", // Beige background color
+    100: "#C0C0C0", // Cedar background color
   },
 };
 
