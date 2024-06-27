@@ -6,33 +6,33 @@ import { SupabaseProvider } from "./integrations/supabase/index.js";
 
 const colors = {
   brand: {
-    900: "#1A202C", // Darker shade for backgrounds
-    800: "#2D3748", // Dark shade for headers
-    700: "#4A5568", // Medium shade for text
-    600: "#718096", // Lighter shade for secondary text
-    500: "#A0AEC0", // Light shade for borders
-    400: "#CBD5E0", // Lighter shade for backgrounds
-    300: "#E2E8F0", // Lightest shade for backgrounds
-    200: "#EDF2F7", // Lightest shade for backgrounds
-    100: "#F7FAFC", // Lightest shade for backgrounds
+    900: "#ff6600", // Bright orange for headers
+    800: "#ff6600", // Bright orange for headers
+    700: "#000000", // Black for text
+    600: "#000000", // Black for text
+    500: "#000000", // Black for text
+    400: "#000000", // Black for text
+    300: "#000000", // Black for text
+    200: "#000000", // Black for text
+    100: "#000000", // Black for text
   },
   accent: {
-    900: "#D69E2E", // Darker accent color (yellow)
-    800: "#ECC94B", // Dark accent color (yellow)
-    700: "#F6E05E", // Medium accent color (yellow)
-    600: "#FAF089", // Lighter accent color (yellow)
-    500: "#F7FAFC", // Light accent color (yellow)
-    400: "#FEEBC8", // Lighter accent color (yellow)
-    300: "#FBD38D", // Lightest accent color (yellow)
-    200: "#F6AD55", // Lightest accent color (yellow)
-    100: "#ED8936", // Lightest accent color (yellow)
+    900: "#0000ff", // Blue for links
+    800: "#0000ff", // Blue for links
+    700: "#0000ff", // Blue for links
+    600: "#0000ff", // Blue for links
+    500: "#0000ff", // Blue for links
+    400: "#0000ff", // Blue for links
+    300: "#0000ff", // Blue for links
+    200: "#0000ff", // Blue for links
+    100: "#0000ff", // Blue for links
   },
   background: {
-    100: "#F7FAFC", // Light background color
+    100: "#f6f6ef", // Light beige background color
   },
 };
 
-const theme = extendTheme({ colors });
+const theme = extendTheme({ colors, fonts: { body: "Arial, sans-serif", heading: "Arial, sans-serif" } });
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
