@@ -11,38 +11,38 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg="background.100">
       <VStack spacing={4}>
-        <Text fontSize="2xl" color="brand.800">Tillgänglighetsexempel</Text>
-        <Text color="brand.700">Utforska olika tillgänglighetsfel och lär dig hur du åtgärdar dem.</Text>
+        <Text fontSize="2xl" color="brand.800">Accessibility Examples</Text>
+        <Text color="brand.700">Explore various accessibility errors and learn how to fix them.</Text>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={4}>
           <Button as={NavLink} to="/accessibility-error-1" colorScheme="brand" variant="solid" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px" _hover={{ bg: "brand.700", color: "white" }}>
-            Saknar Alt-text
+            Missing Alt Text
           </Button>
           <Button as={NavLink} to="/accessibility-error-2" colorScheme="brand" variant="solid" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px" _hover={{ bg: "brand.700", color: "white" }}>
-            Dålig färgkontrast
+            Poor Color Contrast
           </Button>
           <Button as={NavLink} to="/accessibility-error-3" colorScheme="brand" variant="solid" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px" _hover={{ bg: "brand.700", color: "white" }}>
-            Saknar formuläretiketter
+            Missing Form Labels
           </Button>
           <Button as={NavLink} to="/accessibility-error-4" colorScheme="brand" variant="solid" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px" _hover={{ bg: "brand.700", color: "white" }}>
-            Icke-beskrivande länkar
+            Non-Descriptive Links
           </Button>
           <Button as={NavLink} to="/accessibility-error-5" colorScheme="brand" variant="solid" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px" _hover={{ bg: "brand.700", color: "white" }}>
-            Saknar dokumentspråk
+            Missing Document Language
           </Button>
           <Button as={NavLink} to="/accessibility-error-6" colorScheme="brand" variant="solid" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px" _hover={{ bg: "brand.700", color: "white" }}>
-            Saknar ARIA-landmärken
+            Missing ARIA Landmarks
           </Button>
           <Button as={NavLink} to="/accessibility-error-7" colorScheme="brand" variant="solid" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px" _hover={{ bg: "brand.700", color: "white" }}>
-            Otillgängliga interaktiva element
+            Inaccessible Interactive Elements
           </Button>
           <Button as={NavLink} to="/accessibility-error-8" colorScheme="brand" variant="solid" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px" _hover={{ bg: "brand.700", color: "white" }}>
-            Saknar tangentbordsnavigering
+            Missing Keyboard Navigation
           </Button>
           <Button as={NavLink} to="/accessibility-error-9" colorScheme="brand" variant="solid" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px" _hover={{ bg: "brand.700", color: "white" }}>
-            Otillgängliga tabeller
+            Inaccessible Tables
           </Button>
           <Button as={NavLink} to="/accessibility-error-10" colorScheme="brand" variant="solid" whiteSpace="normal" textAlign="center" padding="8px" minWidth="150px" maxWidth="200px" _hover={{ bg: "brand.700", color: "white" }}>
-            Saknar undertexter för videor
+            Missing Captions for Videos
           </Button>
         </SimpleGrid>
       </VStack>
